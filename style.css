@@ -1,0 +1,47 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black !important;
+    height: 100%;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "scaryShit";
+    src: url("scary.ttf");
+}
+
+.form {
+    padding: 18% 0;
+    text-align: center;
+}
+
+.pass-in {
+    background-color: #0d6b03;
+    font-size: large;
+    outline: none;
+}
+
+.submit-in {
+    background-color: #0d6b03;
+    border: 1px solid #0d6b03;
+    font-weight: bolder;
+    color: black !important;
+}
+
+.span {
+    font-weight: bolder;
+    color: #0d6b03 !important;
+    border: 3px solid #0d6b03;
+    padding-left: 4px;
+    padding-right: 5px;
+    font-size: large;
+}
+
+#terrify1 {
+    font-family: "scaryShit";
+    font-size: 48px;
+}
